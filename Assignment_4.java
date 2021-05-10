@@ -64,8 +64,8 @@ public class Assignment_4 {
 				status.setCellValue("Login is Failed");
 			}
 			else {
-				System.out.print("Login is Succeded");
-				status.setCellValue("Login is Succeded");
+				System.out.print("Login is Passed");
+				status.setCellValue("Login is Passed");
 			}
 			
 			FileOutputStream op = new FileOutputStream(path);
